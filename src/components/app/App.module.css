@@ -1,0 +1,50 @@
+.main {
+  padding: 24px 16px 40px 16px;
+  color: #525252;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  color: #f1e3e2;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 100;
+  font-size: 100px;
+}
+
+.section {
+  position: relative;
+  margin-top: 12px;
+  background-color: #ffffff;
+  width: 90%;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionFooter {
+  width: 98%;
+  height: 8px;
+  background-color: inherit;
+  position: absolute;
+  bottom: -8px;
+  -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sectionFooter:nth-last-of-type(1) {
+  width: 96%;
+  bottom: -16px;
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 70px;
+  }
+}
